@@ -1,0 +1,11 @@
+# Working with SSH
+## Display images in terminal over SSH
+When you connect to a remote server using SSH, add -Y in the ssh command (Replace remote_user and remote_server with the real user and remote server address)
+     ssh -Y remote_user@remote_server
+
+In the terminal, if you want to display image X.jpg, use the eog command as follow
+    eog path/to/image/X.jpg
+
+## Run jupyter notebook over SSH
+In the terminal of the remote server, start the jupyter notebook with the following command:
+    
