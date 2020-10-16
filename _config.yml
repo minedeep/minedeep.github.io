@@ -11,7 +11,6 @@ permalink: pretty
 # Social settings
 social_sites:
   github: minedeep
-  linkedin: 
 
 rss: rss
 
@@ -34,7 +33,6 @@ disqus:
   shortname: minedeep-github-io
 
 # Google analytics
-google_analytics: 
 
 # Publish future
 future: true
