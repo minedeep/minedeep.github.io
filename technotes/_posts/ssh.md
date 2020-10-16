@@ -3,7 +3,7 @@ layout: post
 type: post
 title: "Working with SSH"
 date: 2020-10-15
-category: technotes
+categories: technotes
 comments: true
 author: "Hailey Do"
 tags: [machine learning, deep learning, python, ai, ssh]
