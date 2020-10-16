@@ -5,8 +5,6 @@ description: Technical Notes
 permalink: /technotes/
 ---
 
-“Do one thing every day that scares you.”
-― Eleanor Roosevelt
 <ul>
   {% for post in site.category.technotes %}
     <li>
