@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Notebook
+title: technotes
 description: Technical Notes
 permalink: /technotes/
 ---
