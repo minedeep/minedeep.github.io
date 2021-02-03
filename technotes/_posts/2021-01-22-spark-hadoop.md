@@ -40,7 +40,7 @@ Err:13 http://us.archive.ubuntu.com/ubuntu eoan-backports Release
   404  Not Found [IP: 91.189.91.38 80]
 ``` 
 ### 2. Install JDK  ```s sudo apt install default-jdk -y ```
-Check the success of java installation by executing ```s java -version ```. You should see somthing similar to the below
+Check the success of java installation by executing ``` java -version ```. You should see somthing similar to the below
 ```s
 openjdk version "11.0.7" 2020-04-14
 OpenJDK Runtime Environment (build 11.0.7+10-post-Ubuntu-2ubuntu219.10)
@@ -83,6 +83,24 @@ Compiled with protoc 2.5.0
 From source with checksum 776eaf9eee9c0ffc370bcbc1888737
 This command was run using /opt/hadoop/share/hadoop/common/hadoop-common-3.2.1.jar
 ```
+### 5. Install Scala, Git
+Run ```s sudo apt install scala, git -y```, where ``` -y``` means "yes to everything"
+Once the installation completed, verify the process by running the following command:
+```s
+scala -version
+git --version
+```
+### 5. Install Spark
+Go to Spark download webpage ```https://spark.apache.org/downloads.html``` and get the download url for the latest version
+Use ```wget``` to download the Spark archive
+```s
+wget https://downloads.apache.org/spark/spark-3.0.1/spark-3.0.1-bin-hadoop2.7.tgz
+```
+Extract the tar file to ```/opt```
+```s
+sudo tar -xvf spark-3.0.0-preview-bin-hadoop3.2.tgz -C /opt/
+```
+You may want to remove the archive file and change the name of the 
 
 
 
